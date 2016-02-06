@@ -1,0 +1,28 @@
+{
+  "name": "naive-bayes-languages-codeschool",
+  "version": "1.0.0",
+  "description": "Using Naive Bayes Classifier to get the language from text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poeticoding/naive-bayes-languages-codeschool.git"
+  },
+  "keywords": [
+    "codeschool",
+    "naive",
+    "bayes",
+    "machine",
+    "learning",
+    "supervises",
+    "classifier"
+  ],
+  "author": "Alvise Susmel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poeticoding/naive-bayes-languages-codeschool/issues"
+  },
+  "homepage": "https://github.com/poeticoding/naive-bayes-languages-codeschool#readme"
+}
