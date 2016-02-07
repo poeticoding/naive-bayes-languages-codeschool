@@ -37,18 +37,7 @@ class LanguageClassifier {
 	}
 
 	/* returnes the result as label */
-	classify(phrase) {
-		return this.clf.classify(phrase)
-	}
+	classify(phrase) { return this.clf.classify(phrase) }
 }
 
-
-let clf = new LanguageClassifier();
-clf.trainLanguages().then(()=>{
-	let phrase = "Ciao, Où peut-on obtenir des billets?";
-	let label = clf.classify(phrase);
-	console.log(`${phrase} --> ${label}`);
-})
-.catch((error)=>{
-	console.log(error);
-});
+module.exports = LanguageClassifier;
